@@ -1,0 +1,76 @@
+body{
+
+}
+Header{
+	text-align: center;
+	color: mediumpurple;
+		font-size: 30px;
+}
+
+article{
+	text-align: center;
+	font-size: 24px;
+}
+
+footer{
+	text-align: center;
+	background-color: mediumpurple;
+	color: white;
+	font-size: 30px;
+}
+
+nav{
+	background-color: mediumpurple;
+	color: white;
+	font-size: 25px;
+}
+
+@media {min-width: 300px} {
+	
+	article 
+	color: red;
+	border: 2px solid blue;
+	}
+
+@media {min-width: 600px} {
+	
+	article
+	   border-radius: 5px; }
+
+@media (min-width: 940px) {
+	
+	article{ 
+	   color: blue;
+	}
+
+}
+
+@media(min-width: 400px) and (max-width: 600px) {
+
+	article {
+
+		color: red;
+		border: 1px solid red;
+	}
+
+}
+
+@media(min-width: 600px) and (max-width: 899px) {
+
+	article {
+
+		color: red;
+		border-radius: 5px;
+	}
+
+}
+
+@media(min-width: 900px) {
+
+	article {
+
+		color: orange;
+		border-radius: 10px;
+	}
+
+}
